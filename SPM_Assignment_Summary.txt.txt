@@ -1,0 +1,65 @@
+COURSE: Software Process Management
+TOPIC: Pre-Development Phase & Risk Evaluation for LMS
+
+===========================================================================
+1. PRE-DEVELOPMENT STAGE (GENERALIZED)
+===========================================================================
+The Pre-Development stage is critical for aligning technical feasibility 
+with business goals before a single line of code is written.
+
+Phase 1: Problem Discovering
+- Identifying the gap between current state and desired state.
+- Conducting stakeholder interviews and observation to find "pain points."
+
+Phase 2: Risk Analysis
+- Identifying technical, financial, and operational uncertainties.
+- Assessing the probability of failure and planning mitigations.
+
+Phase 3: Development Life Cycle (SDLC) Selection
+- Choosing a model (Waterfall, Agile, Scrum) based on project clarity.
+- Defining the roadmap and major milestones.
+
+Phase 4: Support & Feasibility
+- Determining long-term maintenance requirements.
+- Ensuring resources (human and hardware) are available for the project.
+
+===========================================================================
+2. WHY A LEARNING MANAGEMENT SYSTEM (LMS)?
+===========================================================================
+An LMS was selected as the solution during the Problem Discovering stage 
+due to the following needs:
+- Centralized Resource Management: To prevent data loss and fragmentation.
+- Automated Tracking: To monitor student progress and grading efficiently.
+- Accessibility: Providing 24/7 access to educational materials remotely.
+- Scalability: Handling large numbers of users without manual intervention.
+
+===========================================================================
+3. DETAILED RISK EVALUATION (LMS CASE STUDY)
+===========================================================================
+Methodology: Each risk is decomposed into sub-risks. 
+Formula: Weight = Impact (0-5) × Frequency (0-5)
+
+[TABLE 1: USER ADAPTABILITY]
+- Sub-Risk: Language Difference | Weight: 25 | Priority: 5 | Treatment: Multilingual Support
+- Sub-Risk: Low Accessibility | Weight: 15 | Priority: 4 | Treatment: WCAG UI/UX Standards
+- Sub-Risk: Resistance to Change | Weight: 25 | Priority: 5 | Treatment: Incentives/Training
+
+[TABLE 2: CONTINUOUS MANAGEMENT & MAINTENANCE]
+- Sub-Risk: Server Cost Overrun | Weight: 12 | Priority: 3 | Treatment: Auto-scaling/Budgets
+- Sub-Risk: Tech Obsolescence | Weight: 6 | Priority: 2 | Treatment: Regular Refactoring
+- Sub-Risk: Lack of Tech Support | Weight: 10 | Priority: 3 | Treatment: Dedicated DevOps
+
+[TABLE 3: UNAUTHENTICATED ACCESS]
+- Sub-Risk: Credential Stuffing | Weight: 20 | Priority: 5 | Treatment: Implement MFA
+- Sub-Risk: Session Hijacking | Weight: 12 | Priority: 4 | Treatment: Secure Cookies/SSL
+- Sub-Risk: SQL Injection | Weight: 10 | Priority: 4 | Treatment: Parameterized Queries
+
+[TABLE 4: DATA ACCURACY & COMPLETENESS]
+- Sub-Risk: Manual Entry Errors | Weight: 15 | Priority: 4 | Treatment: Dropdowns/Input Masks
+- Sub-Risk: Sync Failures (API) | Weight: 12 | Priority: 3 | Treatment: Retry Logic/Logging
+- Sub-Risk: Missing Records | Weight: 5 | Priority: 2 | Treatment: Mandatory Fields
+
+[TABLE 5: OUTDATED INFORMATION]
+- Sub-Risk: Old Course Outlines | Weight: 12 | Priority: 3 | Treatment: Faculty Review Emails
+- Sub-Risk: Broken Resource Links | Weight: 10 | Priority: 3 | Treatment: Automated Link Bots
+- Sub-Risk: Expired Announcements| Weight: 5 | Priority: 1 | Treatment: Auto-archive Dates
