@@ -1,14 +1,5 @@
-Software Process Management (SPM) - Semester Portfolio
-Welcome to my Software Process Management repository. This project documents the lifecycle planning, risk assessment, and process modeling for a Learning Management System (LMS) designed for a modern educational environment.
-
 🎓 Course Overview
-Institution: UBIT - University of Karachi.
-
-Batch: Class of 2026.
-
 Subject: Software Process Management (SPM).
-
-Student: Muhammad Talha Khan.
 
 📂 Repository Contents
 This repository is structured into separate modules, each focusing on a specific stage of the software management process:
